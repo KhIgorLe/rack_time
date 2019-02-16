@@ -21,7 +21,7 @@ class App
     if format_string
       check_format_response(format_string)
     else
-      response(404, "Format not found")
+      response(400, "Format not found")
     end
   end
 
